@@ -1,3 +1,5 @@
+[목차로 이동](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/README.md)
+
 ---
 🎱 자료형 dataType
 ---
