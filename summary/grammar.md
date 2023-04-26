@@ -153,8 +153,7 @@ sayHello(person [1], age[1]);
 sayHello(person [2], age[2]);
 
 function sayHello(name,age){
-  console.log("Hello my name is " + name 
-						+ "\nand i'm " + age + "years old");
+  console.log("Hello my name is " + name + "\nand i'm " + age + "years old");
 }
 ```
 
@@ -167,8 +166,7 @@ const player = {
 	
 	// 객체 내부에 선언한 함수 => 메서드
   sayHello: function(friend){
-        console.log("hello everybody~!~!\n" 
-									+ "Oh How are you " + friend + "?");
+        console.log("hello everybody~!~!\n" + "Oh How are you " + friend + "?");
   },
 };
 
