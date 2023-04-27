@@ -7,7 +7,7 @@
 * [자바스크립트](#--자바스크립트)
 * [grammar](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/summary/grammar.md)
 * [elements_value](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/summary/elements_value.md)
-
+* [events](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/summary/events.md)
 
 <br>
 
