@@ -355,3 +355,8 @@ currentTarget: form#login-form, …}
 - addEventListener 함수에 object 자리 할당 시 이벤트가 발생 시킨
 정보에 대한 object들 확인 가능
 - 해당 이벤트가 가진 기본 Default값 발생 막고자 한다면 preventDefault를 사용
+
+
+</br>
+
+[목차로 이동](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/README.md)
