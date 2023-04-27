@@ -270,3 +270,8 @@ if (isNaN(age)){
 `==, ===` 좌우의 값이 같다
 
 `!=, !==` 좌우의 값이 같지 않다
+
+
+</br>
+
+[목차로 이동](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/README.md)
