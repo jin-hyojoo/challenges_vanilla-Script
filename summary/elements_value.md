@@ -117,3 +117,7 @@ const title = document.querySelector("#hello h1");
 title.innerText = "노마드 코더에 오신걸 환영합니다!";
 title.style.color = "brown";
 ```
+
+</br>
+
+[목차로 이동](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/README.md)
