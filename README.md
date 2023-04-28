@@ -1,4 +1,4 @@
-# 🍦 challenges_vanilla-Script
+# 🍦 challenges_vanilla-script
 <br>
 
 ## - 목차
