@@ -5,10 +5,10 @@
 
 * [바닐라 JS로 크롬 앱 만들기](#--바닐라-js로-크롬-앱-만들기)
 * [자바스크립트](#--자바스크립트)
-* [grammar](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/summary/grammar.md)
-* [elements_value](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/summary/elements_value.md)
-* [events](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/summary/events.md)
-* [classList, localStorage, clock](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/summary/classList_localStorage_clock.md)
+* [grammar](https://github.com/jin-hyojoo/challenges_vanilla-script/blob/main/summary/grammar.md)
+* [elements_value](https://github.com/jin-hyojoo/challenges_vanilla-script/blob/main/summary/elements_value.md)
+* [events](https://github.com/jin-hyojoo/challenges_vanilla-script/blob/main/summary/events.md)
+* [classList, localStorage, clock](https://github.com/jin-hyojoo/challenges_vanilla-script/blob/main/summary/classList_localStorage_clock.md)
 
 <br>
 
