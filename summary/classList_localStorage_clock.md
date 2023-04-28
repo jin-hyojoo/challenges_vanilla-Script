@@ -196,3 +196,7 @@ function countDown() {
 countDown();
 setInterval(countDown, 1000);
 ```
+
+</br>
+
+[목차로 이동](https://github.com/jin-hyojoo/challenges_vanilla-Script/blob/main/README.md)
