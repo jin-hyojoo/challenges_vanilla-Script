@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>더글로리:a plan of revenge</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../main/resources/favi.png"/>
+</head>
+<body>
+
+<!-- 로그인 / 사용자 입장 -->
+<section class="wrapper">
+    <div class="title-text">
+        <div class="title login">A plan of Revenge</div>
+    </div>
+    <div class="form-container">
+        <div class="slide-controls">
+            <input type="radio" name="slide" id="dark" class="mode select" value="dark" checked>
+            <input type="radio" name="slide" id="bright" class="mode select" value="bright">
+            <label for="dark" class="slide dark">Dark</label>
+            <label for="bright" class="slide bright">Bright</label>
+            <div class="slider-tab"></div>
+        </div>
+        <div class="form-inner">
+            <form class="login">
+                <div class="field">
+                    <input class="username" type="text" placeholder="Put your name on it" required>
+                </div>
+                <div class="field btn">
+                    <div class="btn-layer"></div>
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- 본 페이지 시작 -->
+<main class="hidden">
+    <!-- ${usename}님의 복수를 시작합니다 -->
+    <div class="user_info">
+        ⚫ <b><label></label></b>님의 계획을 시작합니다
+        <button>💥계획취소</button>  
+    </div>
+
+
+    <!-- 다크/라이트 (배경랜덤 포함)모드 설정 -->
+    <div class="dark_bright">
+        <button class="hidden" id= "dark_btn" name="mode_btn">🌛dark</button>
+        <button class="hidden" id= "bright_btn" name="mode_btn">🌞bright</button>
+    </div>
+
+    <!-- 날씨와 위치 (geolocation) -->
+    <div class="weather_mode_text"></div>
+    <div class="weather_location">
+        <span></span>
+        <span></span>       
+    </div>
+
+    <!-- 실시간 시계 -->
+    <div class="clock">
+        <h2 class="neon">00:00:00</h2>
+    </div>
+
+    <!-- 복수 대상 or 시_메리올리버 등장 -->
+    <div id="revenge_person" class="hidden">
+        <img src="../main/resources/trash.png"/>
+    </div>
+    <div id="dont_hesitate" class="hidden">
+        <img src="../main/resources/donthesitate.png"/>
+    </div>
+
+    <!-- 투두리스트 -->
+    <div class="todo">
+        <form id="todo_form">
+            <input type="text" placeholder=" Write TODO list & Press Enter "/>
+        </form>
+        <ul id="todo_list"></ul>
+    </div>
+</main>
+</body>
+<script src="js/weather.js"></script>
+<script src="js/theGloryMain.js"></script>
+<script src="js/todo.js"></script>
+</html>

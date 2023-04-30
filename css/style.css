@@ -1,0 +1,313 @@
+/*===========================================================================
+    MAIN 
+===========================================================================*/
+.hidden {
+  display :none;
+}
+
+main .user_info{
+  color: black;
+  font-size: 17px;
+  background: linear-gradient(180deg,hsla(0,0%,100%,0),#ffffff 0);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 15px;
+  border-radius: 13px;
+  padding: 8px;
+}
+
+main .user_info button{
+  float: right;
+  background: bisque;
+  padding: 2px;
+  margin-right: 5px; 
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+main .dark_bright{
+  float: right;
+  margin-right: 30px;
+}
+
+main #dark_btn{
+  margin-right: 3px;
+  margin-top: 15px;
+  background: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+main #bright_btn{
+  margin-right: 3px;
+  margin-top: 15px;
+  background: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+main .weather_mode_text{
+  color: black;
+  font-size: 13px;
+  margin-left: 35px;
+  margin-right: 30px;
+  margin-top: 10px;
+  background: #fff;
+  width: fit-content;
+}
+
+main .weather_location{
+  color: black;
+  font-size: 13px;
+  margin-left: 35px;
+  margin-right: 30px;
+  margin-top: 10px;
+  background: #fff;
+  width: fit-content;
+}
+
+main .clock{
+  float: right;
+  margin-right: 120px;
+  margin-top: -38px;
+  color: #fff;
+  /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff4400, 0 0 30px #ff4400, 0 0 40px #ff4400, 0 0 55px #ff4400, 0 0 75px #ff0080;*/
+}
+
+main #revenge_person img{
+  margin-top: 100px;
+  float: left;
+  margin-left: 30px;
+  width: 45%;
+}
+
+main #dont_hesitate img{
+  margin-top: 100px;
+  float: left;
+  margin-left: 30px;
+  width: 45%;
+}
+
+main .todo{
+  margin-left: 50px;
+  margin-top: 100px;
+  float: left;
+  top: 60%;
+  right: 25%;
+  width: 450px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+main .todo #todo_form{
+  margin-bottom: 30px;
+}
+
+main .todo #todo_form input{
+  text-align: center;
+  height: 30px;
+  width: 250px;
+  background: #b7b7b76e;
+  border-radius: 10px;
+  border: 2px;
+  
+}
+
+main .todo #todo_list{
+  margin-left : 20px; 
+}
+
+main .todo #todo_list button{
+  float : right;
+  width: 22px;
+  color: black;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+/*===========================================================================
+    로그인폼 code 출처
+    https://www.codingnepalweb.com/login-and-registration-form-in-html/
+===========================================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  align-content: flex-start;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+body{
+  
+  background-image: url("../resources/the-glory-login.jpg");
+  background-size : cover;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin:-150px 0 0 -200px;
+  max-width: 390px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+.wrapper .title-text{
+  display: flex;
+  width: 200%;
+}
+.wrapper .title{
+  width: 50%;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.wrapper .slide-controls{
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  margin: 30px 0 10px 0;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.slide-controls .slide{
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.6s ease;
+}
+.slide-controls label.bright{
+  color: #000;
+}
+.slide-controls .slider-tab{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(left, #2a412f, #644e45);
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+input[type="radio"]{
+  display: none;
+}
+#bright:checked ~ .slider-tab{
+  left: 50%;
+}
+#bright:checked ~ label.bright{
+  color: #fff;
+  cursor: default;
+  user-select: none;
+}
+#bright:checked ~ label.dark{
+  color: #000;
+}
+#dark:checked ~ label.bright{
+  color: #000;
+}
+#dark:checked ~ label.dark{
+  cursor: default;
+  user-select: none;
+}
+.wrapper .form-container{
+  width: 100%;
+  overflow: hidden;
+}
+.form-container .form-inner{
+  display: flex;
+  width: 200%;
+}
+.form-container .form-inner form{
+  width: 50%;
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.form-inner form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+.form-inner form .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  border-bottom-width: 2px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+.form-inner form .field input:focus{
+  border-color: #072f02;
+  /* box-shadow: inset 0 0 3px #fb6aae; */
+}
+.form-inner form .field input::placeholder{
+  color: #999;
+  transition: all 0.3s ease;
+}
+form .field input:focus::placeholder{
+  color: #b3b3b3;
+}
+
+form .btn{
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+form .btn .btn-layer{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: -webkit-linear-gradient(right, #2a412f, #644e45);
+  border-radius: 5px;
+  transition: all 0.4s ease;;
+}
+form .btn:hover .btn-layer{
+  left: 0;
+}
+form .btn input[type="submit"]{
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  padding-left: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
