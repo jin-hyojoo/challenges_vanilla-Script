@@ -1,5 +1,17 @@
 # 🍦 challenges_vanilla-script
-<br>
+</br>
+챌린지 최종 과제 → 투두리스트 만들기 
+
+</br></br>
+
+[🔥더글로리](https://jin-hyojoo.github.io/challenges_vanilla-script/theglory.html)
+
+복수도 계획적으로. 
+문동은이 되어 복수 계획을 세워봅시다.</br>
+다만 마냥 어두울 수만은 없는 노릇. 해뜰날도 있어야겠죠?</br>
+dark / bright 버전으로 나누어 계획을 세워봅시다
+
+</br>
 
 ## - 목차
 
