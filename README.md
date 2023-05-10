@@ -13,6 +13,12 @@ dark / bright 버전으로 나누어 계획을 세울 수 있어요
 
 </br>
 
+## - 수료증
+
+<img src="https://github.com/jin-hyojoo/challenges_vanilla-script/assets/62503593/d00b4b63-e50a-4acc-a011-ffe04dca0fb7" width="70%" height="70%"/>
+
+
+
 ## - 목차
 
 * [바닐라 JS로 크롬 앱 만들기](#--바닐라-js로-크롬-앱-만들기)
