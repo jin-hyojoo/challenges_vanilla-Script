@@ -1,6 +1,7 @@
 # 🍦 challenges_vanilla-script
 </br>
-챌린지 최종 과제 → 투두리스트 만들기 
+챌린지 최종 과제 (개발/2일) </br> 
+<b>투두리스트 만들기</b>
 
 </br></br>
 
@@ -10,6 +11,14 @@
 문동은이 되어 복수 계획을 세워봅시다.</br>
 다만 마냥 어두울 수만은 없는 노릇. 해뜰날도 있어야겠죠?</br>
 dark / bright 버전으로 나누어 계획을 세울 수 있어요
+
+</br>
+
+💌기술스택<br><br>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white">
+<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white">
+
 
 </br>
 
